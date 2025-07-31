@@ -3,6 +3,6 @@ import java.util.Scanner;
 class PrintBridge {
   public static void main(String[] args) {
 
-    System.out.print("Welcome to Bridgelabz! ");
+    System.out.print("Welcome to Bridgelabz!");
   }
 }
