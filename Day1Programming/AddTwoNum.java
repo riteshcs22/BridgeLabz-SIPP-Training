@@ -1,5 +1,3 @@
-package Day1Programming;
-
 import java.util.*;
 
 class AddTwoNum {
