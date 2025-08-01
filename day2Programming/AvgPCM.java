@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class AvgPCM {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     System.out.print("Enter the marks of Math: ");
-    double mathMarks = scanner.nextDouble();
+    double mathMarks = sc.nextDouble();
     System.out.print("Enter the marks of Physics: ");
-    double physicsMarks = scanner.nextDouble();
+    double physicsMarks = sc.nextDouble();
     System.out.print("Enter the marks of Chemistry: ");
-    double chemistryMarks = scanner.nextDouble();
+    double chemistryMarks = sc.nextDouble();
     double average = (mathMarks + physicsMarks + chemistryMarks) / 3;
     System.out.println("Average marks: " + average);
   }
