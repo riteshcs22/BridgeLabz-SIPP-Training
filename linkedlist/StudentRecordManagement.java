@@ -1,3 +1,4 @@
+package linkedlist;
 // Singly Linked List: Student Record Management
 
 class Student {
