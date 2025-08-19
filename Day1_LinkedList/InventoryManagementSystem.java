@@ -1,7 +1,7 @@
 package linkedlist;
 // Singly Linked List: Inventory Management System
 
-class Item {
+class Item  {
     String name;
     int id;
     int quantity;
