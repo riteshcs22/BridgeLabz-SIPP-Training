@@ -1,3 +1,4 @@
+package linkedlist;
 // Singly Linked List: Inventory Management System
 
 class Item {
