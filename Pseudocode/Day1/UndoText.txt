@@ -1,0 +1,19 @@
+Initialize Stack undoStack
+
+Function performOperation(operation):
+    Apply operation to the text
+    Push operation onto undoStack
+
+Function undo():
+    If undoStack is not empty:
+        lastOperation = Pop from undoStack
+        reverseOperation = getReverse(lastOperation)
+        Apply reverseOperation to the text
+    Else:
+        Print "Nothing to undo"
+
+Function getReverse(operation):
+    If operation.type == "insert":
+        return Operation("delete", operation.position, operation.text)
+    Else if operation.type == "delete":
+        return Operation("insert", operation.position, operation.text)
